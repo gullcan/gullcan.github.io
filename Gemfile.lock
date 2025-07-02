@@ -52,6 +52,7 @@ GEM
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
+    hyde (0.0.4)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     jekyll (4.4.1)
@@ -164,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
+  hyde (~> 0.0.4)
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
