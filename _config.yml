@@ -1,24 +1,9 @@
-title: My Blog
-email: dgulcan88@gmail.com
-description: >- # Bu satırın sonundaki '>-', çok satırlı string içindir
-  My personal blog powered by Jekyll and Hyde theme.
-baseurl: "" # Alt klasörde barındırıyorsan örn. "/blog"
-url: "https://gullcan.github.io" # Site adresin
-
-# Build settings
+title: My Jekyll Blog
+baseurl: ""
+url: "https://gullcan.github.io"
 markdown: kramdown
-
-plugins:
-  - jekyll-feed
-
-# Exclude these files from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-# Future postları göstermek için:
 future: true
+include:
+  - public
 
  

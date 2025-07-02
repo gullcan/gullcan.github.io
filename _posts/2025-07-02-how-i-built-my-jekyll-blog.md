@@ -65,7 +65,7 @@ theme: hyde
 
 GitHub’a sadece dosyaları yükleyince Jekyll otomatik çalışıyor ama theme ayarı varsa kendi temasını kullanıyor.
 Bu yüzden theme: hyde yazısını kaldırdım.
- index.md dosyasına layout: default ekledim.
+ index.html dosyasına layout: default ekledim.
 Eğer layout belirtilmezse, Jekyll sayfayı render edemez.
 Ve GitHub’a _layouts klasörünü doğru commit ettim.
 Temanın tüm dosyalarının GitHub'a yüklendiğinden emin oldum.
